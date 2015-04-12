@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eMeteAidor</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <script type="text/javascript" src='js/script.js'></script>
+    </head>
+    <body>
+        <div id="topTitle">
+            <div id="tttitle">eMeteAidor&#43;&#43; | Current Location: </div>
+            <p id="demo"></p>
+        </div>
+        <div id="leftContainer">
+            <div id="shelterName">Nearby Shelters</div>
+            <div id="sheltersPlaces">
+            </div>
+            <div id="hospitalsName">Nearby Hospitals</div>
+            <div id="hospitalLoc">
+            </div>
+        </div>
+        <div id="rightContainer">
+            <div id="amtDonated">Amount Donated (Venmo)</div>
+            <div id="actNeedMoney">
+            </div>
+            <div id="donateQ">
+                Losing a home or a family is a very tragic experience that cannot be described with words. If you would like to contribute, please click on the donate button below. Thank you.
+            </div>
+            <div id="needMoneySee">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align:center;   padding-top: 30px;" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                ">
+                <input type="image" id="PayButton" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+            <div id="searchBar">
+                <input id="inputBing" placeholder="Search your Meteorite."></input>
+                <input id="inputBingSearch" type="button"></input>
+            </div>
+        </div>
+    </body>
+</html>

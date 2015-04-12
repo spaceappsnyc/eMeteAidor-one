@@ -1,0 +1,100 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+}
+#topTitle{
+	height: 10%;
+	background-color: #191919;
+	top: 0px;
+}
+
+#leftContainer{
+	float: left;
+	width: 50%;
+	height: 90%;
+}
+
+#shelterName{
+	background-color: #191919;
+	border: 5px #f5f5f5 solid;
+}
+
+#hospitalsName{
+	background-color: #f5f5f5;
+	border: 5px #191919 solid;
+}
+
+#sheltersPlaces{
+	overflow-y: auto;
+	height: 50%;
+	background-color: #f5f5f5;
+}
+#sheltersPlaces::-webkit-scrollbar,#hospitalLoc::-webkit-scrollbar {
+	display: none;
+}
+#hospitalLoc{
+	overflow-y: auto;
+	height: 50%;
+	background-color: #191919;
+}
+
+#rightContainer{
+	float: left;
+	width: 50%;
+	height: 90%;
+}
+.shellContainer{
+	width: 100%;
+	border: 5px #191919 solid;
+	padding: 5px;
+}
+
+.hshellContainer{
+	width: 100%;
+	border: 5px #f5f5f5 solid;
+	padding: 5px;
+}
+
+#RightContainer{
+	/*background-color: green;*/
+	/*background-image: url(../tb.png);*/
+	float: left;
+	height: 100%;
+	width: 45%;
+}
+
+.ApDiv{
+	background-color: #EDEDED;
+	height: 15%
+}
+
+#amtDonated{
+	background-color: #f5f5f5;
+	border: 5px #191919 solid;
+}
+
+#donateQ{
+	background-color: #191919;
+}
+
+/*for paypal*/
+#PayButton{
+	text-align: center;
+}
+
+#searchBar{
+	width: 100%;
+	background-color: #191919;
+	height: 16%;
+}
+
+#inputBingSearch{
+	background-color: #f5f5f5;
+	outline: 0px;
+	margin: 0px;
+	border: 0px;
+	opacity: 0.1;
+}

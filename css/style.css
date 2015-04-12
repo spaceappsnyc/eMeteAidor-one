@@ -1,0 +1,64 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	outline: 0px;
+	border: 0px;
+	margin: 0px;
+    overflow:hidden;
+}
+
+html::-webkit-scrollbar { 
+    display: none; 
+}
+
+#loopGif{
+	background-image: url(../vid/nasa.gif);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 100%;
+	height: 100%;
+}
+
+#container{
+	/*background-image: url(../vid/nasa.gif);*/
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	outline: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+#headerTitle{
+	position: relative;
+	z-index: 2;
+	top: 40%;
+	width: 47%;
+}
+
+#descriptionTitle{
+	position: relative;
+	z-index: 3;
+	top: 40%;
+}
+
+#enterBox{
+	background-color: #f5f5f5;
+	opacity: 0.8;
+	position: relative;
+	z-index: 4;
+	top: 42%;
+	border: 3px #191919 solid;
+	width: 12%;
+	cursor: pointer;
+}
+
+#AdminLink{
+	position: fixed;
+	z-index: 5;
+	top: 0px;
+	right: 0px;
+	background-color: #191919;
+	cursor: pointer;
+}
